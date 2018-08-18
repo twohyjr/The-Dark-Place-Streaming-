@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		EB0E68C62127A18E0002A591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E68C52127A18E0002A591 /* AppDelegate.swift */; };
-		EB0E68C82127A18E0002A591 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E68C72127A18E0002A591 /* ViewController.swift */; };
 		EB0E68CA2127A1910002A591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0E68C92127A1910002A591 /* Assets.xcassets */; };
 		EB0E68CD2127A1910002A591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0E68CB2127A1910002A591 /* Main.storyboard */; };
 		EB0E68D92127A1910002A591 /* The_Dark_Place__Streaming_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E68D82127A1910002A591 /* The_Dark_Place__Streaming_Tests.swift */; };
+		EB0E68E62127A20C0002A591 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E68E52127A20C0002A591 /* GameView.swift */; };
+		EB0E68E82127A2290002A591 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E68E72127A2290002A591 /* Renderer.swift */; };
+		EB0E68EA2127A28C0002A591 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E68E92127A28C0002A591 /* Engine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +29,6 @@
 /* Begin PBXFileReference section */
 		EB0E68C22127A18E0002A591 /* The Dark Place (Streaming).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Dark Place (Streaming).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0E68C52127A18E0002A591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB0E68C72127A18E0002A591 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB0E68C92127A1910002A591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB0E68CC2127A1910002A591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB0E68CE2127A1910002A591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +36,9 @@
 		EB0E68D42127A1910002A591 /* The Dark Place (Streaming)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Dark Place (Streaming)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0E68D82127A1910002A591 /* The_Dark_Place__Streaming_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Dark_Place__Streaming_Tests.swift; sourceTree = "<group>"; };
 		EB0E68DA2127A1910002A591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0E68E52127A20C0002A591 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		EB0E68E72127A2290002A591 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		EB0E68E92127A28C0002A591 /* Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +80,9 @@
 		EB0E68C42127A18E0002A591 /* The Dark Place (Streaming) */ = {
 			isa = PBXGroup;
 			children = (
-				EB0E68C52127A18E0002A591 /* AppDelegate.swift */,
-				EB0E68C72127A18E0002A591 /* ViewController.swift */,
-				EB0E68C92127A1910002A591 /* Assets.xcassets */,
-				EB0E68CB2127A1910002A591 /* Main.storyboard */,
-				EB0E68CE2127A1910002A591 /* Info.plist */,
-				EB0E68CF2127A1910002A591 /* The_Dark_Place__Streaming_.entitlements */,
+				EB0E68E92127A28C0002A591 /* Engine.swift */,
+				EB0E68E42127A1BA0002A591 /* Display */,
+				EB0E68E32127A1A70002A591 /* Other Stuff */,
 			);
 			path = "The Dark Place (Streaming)";
 			sourceTree = "<group>";
@@ -93,6 +94,27 @@
 				EB0E68DA2127A1910002A591 /* Info.plist */,
 			);
 			path = "The Dark Place (Streaming)Tests";
+			sourceTree = "<group>";
+		};
+		EB0E68E32127A1A70002A591 /* Other Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				EB0E68C52127A18E0002A591 /* AppDelegate.swift */,
+				EB0E68C92127A1910002A591 /* Assets.xcassets */,
+				EB0E68CE2127A1910002A591 /* Info.plist */,
+				EB0E68CF2127A1910002A591 /* The_Dark_Place__Streaming_.entitlements */,
+			);
+			path = "Other Stuff";
+			sourceTree = "<group>";
+		};
+		EB0E68E42127A1BA0002A591 /* Display */ = {
+			isa = PBXGroup;
+			children = (
+				EB0E68CB2127A1910002A591 /* Main.storyboard */,
+				EB0E68E72127A2290002A591 /* Renderer.swift */,
+				EB0E68E52127A20C0002A591 /* GameView.swift */,
+			);
+			path = Display;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +217,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB0E68C82127A18E0002A591 /* ViewController.swift in Sources */,
+				EB0E68E62127A20C0002A591 /* GameView.swift in Sources */,
+				EB0E68EA2127A28C0002A591 /* Engine.swift in Sources */,
+				EB0E68E82127A2290002A591 /* Renderer.swift in Sources */,
 				EB0E68C62127A18E0002A591 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,11 +371,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "The Dark Place (Streaming)/The_Dark_Place__Streaming_.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "The Dark Place (Streaming)/Other Stuff/The_Dark_Place__Streaming_.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer: twohyjr@gmail.com (RVEB25NC2D)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9QQ2JZFGTQ;
-				INFOPLIST_FILE = "The Dark Place (Streaming)/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/The Dark Place (Streaming)/Other Stuff/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -366,11 +391,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "The Dark Place (Streaming)/The_Dark_Place__Streaming_.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "The Dark Place (Streaming)/Other Stuff/The_Dark_Place__Streaming_.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer: twohyjr@gmail.com (RVEB25NC2D)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9QQ2JZFGTQ;
-				INFOPLIST_FILE = "The Dark Place (Streaming)/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/The Dark Place (Streaming)/Other Stuff/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
