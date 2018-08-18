@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB0E68C62127A18E0002A591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E68C52127A18E0002A591 /* AppDelegate.swift */; };
+		EB0E68C82127A18E0002A591 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E68C72127A18E0002A591 /* ViewController.swift */; };
+		EB0E68CA2127A1910002A591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0E68C92127A1910002A591 /* Assets.xcassets */; };
+		EB0E68CD2127A1910002A591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0E68CB2127A1910002A591 /* Main.storyboard */; };
+		EB0E68D92127A1910002A591 /* The_Dark_Place__Streaming_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E68D82127A1910002A591 /* The_Dark_Place__Streaming_Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB0E68D52127A1910002A591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB0E68BA2127A18E0002A591 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB0E68C12127A18E0002A591;
+			remoteInfo = "The Dark Place (Streaming)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB0E68C22127A18E0002A591 /* The Dark Place (Streaming).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Dark Place (Streaming).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0E68C52127A18E0002A591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB0E68C72127A18E0002A591 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB0E68C92127A1910002A591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB0E68CC2127A1910002A591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB0E68CE2127A1910002A591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0E68CF2127A1910002A591 /* The_Dark_Place__Streaming_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = The_Dark_Place__Streaming_.entitlements; sourceTree = "<group>"; };
+		EB0E68D42127A1910002A591 /* The Dark Place (Streaming)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Dark Place (Streaming)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0E68D82127A1910002A591 /* The_Dark_Place__Streaming_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Dark_Place__Streaming_Tests.swift; sourceTree = "<group>"; };
+		EB0E68DA2127A1910002A591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB0E68BF2127A18E0002A591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0E68D12127A1910002A591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB0E68B92127A18E0002A591 = {
+			isa = PBXGroup;
+			children = (
+				EB0E68C42127A18E0002A591 /* The Dark Place (Streaming) */,
+				EB0E68D72127A1910002A591 /* The Dark Place (Streaming)Tests */,
+				EB0E68C32127A18E0002A591 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB0E68C32127A18E0002A591 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB0E68C22127A18E0002A591 /* The Dark Place (Streaming).app */,
+				EB0E68D42127A1910002A591 /* The Dark Place (Streaming)Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB0E68C42127A18E0002A591 /* The Dark Place (Streaming) */ = {
+			isa = PBXGroup;
+			children = (
+				EB0E68C52127A18E0002A591 /* AppDelegate.swift */,
+				EB0E68C72127A18E0002A591 /* ViewController.swift */,
+				EB0E68C92127A1910002A591 /* Assets.xcassets */,
+				EB0E68CB2127A1910002A591 /* Main.storyboard */,
+				EB0E68CE2127A1910002A591 /* Info.plist */,
+				EB0E68CF2127A1910002A591 /* The_Dark_Place__Streaming_.entitlements */,
+			);
+			path = "The Dark Place (Streaming)";
+			sourceTree = "<group>";
+		};
+		EB0E68D72127A1910002A591 /* The Dark Place (Streaming)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EB0E68D82127A1910002A591 /* The_Dark_Place__Streaming_Tests.swift */,
+				EB0E68DA2127A1910002A591 /* Info.plist */,
+			);
+			path = "The Dark Place (Streaming)Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB0E68C12127A18E0002A591 /* The Dark Place (Streaming) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB0E68DD2127A1910002A591 /* Build configuration list for PBXNativeTarget "The Dark Place (Streaming)" */;
+			buildPhases = (
+				EB0E68BE2127A18E0002A591 /* Sources */,
+				EB0E68BF2127A18E0002A591 /* Frameworks */,
+				EB0E68C02127A18E0002A591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Dark Place (Streaming)";
+			productName = "The Dark Place (Streaming)";
+			productReference = EB0E68C22127A18E0002A591 /* The Dark Place (Streaming).app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB0E68D32127A1910002A591 /* The Dark Place (Streaming)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB0E68E02127A1910002A591 /* Build configuration list for PBXNativeTarget "The Dark Place (Streaming)Tests" */;
+			buildPhases = (
+				EB0E68D02127A1910002A591 /* Sources */,
+				EB0E68D12127A1910002A591 /* Frameworks */,
+				EB0E68D22127A1910002A591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB0E68D62127A1910002A591 /* PBXTargetDependency */,
+			);
+			name = "The Dark Place (Streaming)Tests";
+			productName = "The Dark Place (Streaming)Tests";
+			productReference = EB0E68D42127A1910002A591 /* The Dark Place (Streaming)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB0E68BA2127A18E0002A591 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = TwohyTutorials;
+				TargetAttributes = {
+					EB0E68C12127A18E0002A591 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					EB0E68D32127A1910002A591 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = EB0E68C12127A18E0002A591;
+					};
+				};
+			};
+			buildConfigurationList = EB0E68BD2127A18E0002A591 /* Build configuration list for PBXProject "The Dark Place (Streaming)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB0E68B92127A18E0002A591;
+			productRefGroup = EB0E68C32127A18E0002A591 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB0E68C12127A18E0002A591 /* The Dark Place (Streaming) */,
+				EB0E68D32127A1910002A591 /* The Dark Place (Streaming)Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB0E68C02127A18E0002A591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0E68CA2127A1910002A591 /* Assets.xcassets in Resources */,
+				EB0E68CD2127A1910002A591 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0E68D22127A1910002A591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB0E68BE2127A18E0002A591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0E68C82127A18E0002A591 /* ViewController.swift in Sources */,
+				EB0E68C62127A18E0002A591 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0E68D02127A1910002A591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0E68D92127A1910002A591 /* The_Dark_Place__Streaming_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB0E68D62127A1910002A591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB0E68C12127A18E0002A591 /* The Dark Place (Streaming) */;
+			targetProxy = EB0E68D52127A1910002A591 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB0E68CB2127A1910002A591 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB0E68CC2127A1910002A591 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB0E68DB2127A1910002A591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB0E68DC2127A1910002A591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EB0E68DE2127A1910002A591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "The Dark Place (Streaming)/The_Dark_Place__Streaming_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9QQ2JZFGTQ;
+				INFOPLIST_FILE = "The Dark Place (Streaming)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ricktwohy.The-Dark-Place--Streaming-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		EB0E68DF2127A1910002A591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "The Dark Place (Streaming)/The_Dark_Place__Streaming_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9QQ2JZFGTQ;
+				INFOPLIST_FILE = "The Dark Place (Streaming)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ricktwohy.The-Dark-Place--Streaming-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		EB0E68E12127A1910002A591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9QQ2JZFGTQ;
+				INFOPLIST_FILE = "The Dark Place (Streaming)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ricktwohy.The-Dark-Place--Streaming-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Dark Place (Streaming).app/Contents/MacOS/The Dark Place (Streaming)";
+			};
+			name = Debug;
+		};
+		EB0E68E22127A1910002A591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9QQ2JZFGTQ;
+				INFOPLIST_FILE = "The Dark Place (Streaming)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ricktwohy.The-Dark-Place--Streaming-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Dark Place (Streaming).app/Contents/MacOS/The Dark Place (Streaming)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB0E68BD2127A18E0002A591 /* Build configuration list for PBXProject "The Dark Place (Streaming)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0E68DB2127A1910002A591 /* Debug */,
+				EB0E68DC2127A1910002A591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB0E68DD2127A1910002A591 /* Build configuration list for PBXNativeTarget "The Dark Place (Streaming)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0E68DE2127A1910002A591 /* Debug */,
+				EB0E68DF2127A1910002A591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB0E68E02127A1910002A591 /* Build configuration list for PBXNativeTarget "The Dark Place (Streaming)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0E68E12127A1910002A591 /* Debug */,
+				EB0E68E22127A1910002A591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB0E68BA2127A18E0002A591 /* Project object */;
+}
